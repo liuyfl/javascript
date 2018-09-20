@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+.left{
+	position:relative;
+	height:15px;
+	width:20px;
+	background:url(../images/left.png);
+}
+.left:hover{
+	background:url(../images/left-hover.png);
+	cursor:pointer;
+}
+.left-turn{
+	position:relative;
+	height:20px;
+	width:15px;
+	background:url(../images/top.png);
+}
+.left-turn:hover{
+	background:url(../images/top-hover.png);
+	cursor:pointer;
+}
+.right{
+	position:relative;
+	height:15px;
+	width:20px;
+	background:url(../images/right.png);
+}
+.right:hover{
+	background:url(../images/right-hover.png);
+	cursor:pointer;
+}
+.right-turn{
+	position:relative;
+	height:20px;
+	width:15px;
+	background:url(../images/bottom.png);
+}
+.right-turn:hover{
+	background:url(../images/bottom-hover.png);
+	cursor:pointer;
+}
+.scroll{
+	position:relative;
+	height:15px;
+	background:#91a4a9;
+}
+.scroll-turn{
+	position:relative;
+	width:15px;
+	background:#91a4a9;
+}
+.scrollhandle{
+	position:relative;
+	height:15px;
+	background:#577e82;
+}
+.scrollhandle-turn{
+	position:relative;
+	width:15px;
+	background:#577e82;
+}
+#square{
+	 height:15px; 
+	 width:15px; 
+	 background:#91a4a9; 
+	 position:relative;
+}

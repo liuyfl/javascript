@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="clock.js"></script>
+
+<title>时钟</title>
+</head>
+
+<body>
+<canvas id="clock" width="700px" height="700px">clock</canvas>
+<!--<script type="text/javascript">
+var ctx = document.getElementById('clock').getContext('2d');
+ctx.beginPath();
+ctx.lineWidth = '5';
+ctx.fillStyle = 'blue';
+ctx.moveTo(0,80);
+ctx.lineTo(100,300);
+ctx.stroke();
+
+			var x = 300 + Math.sin(5/12*2*Math.PI)*100;
+			var y = 300 - Math.cos(5/12*2*Math.PI)*100;
+			ctx.fillText(12 , x  , y);
+</script>-->
+<input type="button" id="btn" style="width:100px; height:20px; position:relative; top:-200px; left:-500px;" value="设置时间提醒"  onclick="click()"/>
+<script type="text/javascript">
+/* var l=document.getElementById('clock').getContext("2d");
+  var imageObj = new Image();
+  imageObj.src="web-2.jpg";
+  imageObj.onload = function() {
+   l.drawImage(imageObj,50,50, 800, 526);
+	}*/
+    
+ var cl = new clock(document.getElementById('clock').getContext("2d"));
+function click(){
+	
+}
+</script>
+</body>
+</html>

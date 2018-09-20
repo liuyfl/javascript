@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+div{
+	margin:0px;
+	padding:0px;
+	position:relative;
+}
+.lyf-button-left{
+	margin:5px 0px 5px 5px;
+	height:42px;
+	float:left;
+	background:url(../img/button-12.png) -25px -22px;
+	/*background:url(../img/button-11.png) -16px -8px;
+	background:url(../img/button-10.png) -30px 0px;
+	background:url(../img/button-7.png) 0px 0px;*/
+}
+/*.lyf-button-left-hover{
+	cursor:pointer;
+	background:url(../img/button-12-hover.png) -30px -18px;
+}
+.lyf-button-right-hover{
+	cursor:pointer;
+	background:url(../img/button-12-hover.png) -509px -18px;  -501px
+	
+}*/
+.lyf-button-content{
+	float:left;
+	font-size:14px;
+	height:32px;
+	padding:5px 0px 5px 17px;
+	margin:0 0 0 0px;
+	text-align:center;
+	line-height:32px;
+	font-family:Microsoft YaHei;
+}
+.lyf-button-right{
+	margin:5px 5px 5px 0px;
+	height:42px;
+	width:20px;
+	float:left;
+	/*background:url(../img/button-12-hover.png) -509px -19px;*/
+	background:url(../img/button-12.png) -501px -22px;
+	/*background:url(../img/button-11.png) -495px -8px;//-496px  width:25px
+	background:url(../img/button-10.png) -509px 0px; 
+	background:url(../img/button-7.png) -583px 0px;*/
+}
+

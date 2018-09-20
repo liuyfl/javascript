@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mag{
+	overflow:hidden;
+}
+.mag .magnify-img1{
+	float:left;
+	position:relative;
+	margin-right:5px;
+}
+.mag .magnify-img1 .magnify-mask{
+	position:absolute;
+	top:0px;
+	left:0px;
+	background:#b2b2b2;
+	opacity:0.4;
+	filter:alpha(opacity=40);
+	display:none;
+}
+.mag .magnify-img2{
+	position:relative;
+	overflow:hidden;
+	display:none;
+}
+.magnify-img{
+	vertical-align:bottom;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+.mag .magnify-proxy{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	cursor:crosshair;
+}
